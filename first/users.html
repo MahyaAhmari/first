@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/util.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- navbar section_________________________start________________ -->
+
+    <nav class="teal accent-4 top_navbar">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo hide-on-med-and-up">Users</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="users.html">User Manager</a></li>
+            <li><a href="https://github.com">GitHub</a></li>
+            <li><a href="https://github.com/MahyaAhmari/first">Site's Code</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><div class="user-view">
+        <div class="background">
+            <img src="assets/images/background.jpg" class="w-100" alt="image">
+        </div>
+        <a><img class="circle" src="assets/images/avatar.jpg" alt="avatar"></a>
+        <a><span class="black-text name">Mahya Ahmari</span></a>
+        <a><span class="black-text email">mahyahmari@gmail.com</span></a>
+    </div></li>
+    <li><a href="https://mail.google.com"><i class="material-icons">insert_link</i>mail box</a></li>
+    <li><a href="https://github.com/MahyaAhmari"><i class="material-icons">insert_link</i>GitHub</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Pages</a></li>
+    <li><a class="waves-effect" href="#!">Home</a></li>
+    <li><a class="waves-effect" href="users.html">User</a></li>
+    </ul>
+    <!-- navbar section_________________________end__________________ -->
+    
+
+    <!-- content section_________________________start________________ -->
+
+    <section id="top_action_section" class="row p-t-10 m-b-0">
+
+        <!-- add button___________________________________________________ -->
+        <div class="p-l-10 p-r-10 p-t-10 col s12 m3 l2">
+            <button class="waves-effect waves-dark btn light-blue w-100 p-l-30 p-r-30 rounded_pill flex-c">
+            <i class="material-icons m-r-5">add</i>
+                add user
+            </button>
+        </div>
+
+        <!-- search button___________________________________________________ -->
+        <div class="row col s12 m9 l8 m-b-0">
+            <div class="input-field col s12">
+                <input id="search" type="text" class="validate">
+                <label for="search">
+                    <i class="material-icons pos-relative top-5">search</i>
+                    Search
+                </label>
+            </div>
+        </div>
+        <div class="col l2 hide-on-med-and-down"></div>
+
+    </section>
+    <section class="user_list_section">
+        <ul class="collapsible">
+            <li class="user_list_item">
+                <div class="collapsible-header">
+                    <i class="material-icons yellow-text accent-4 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
+                    Mahya Ahmari
+                </div>
+
+                <div class="collapsible-body">
+
+                    <div class="p-all-5">
+                        <span class="f-bold">Username:</span>
+                        <span>mahyaA</span>
+                    </div>
+
+                    <div class="p-all-5">
+                        <span class="f-bold">Email:</span>
+                        <span>mahyahmari@gmail.com</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Address:</span>
+                        <span>mashhad-example Street ...</span>
+                    </div>
+                    <div class="p-all-5 flex-l-m">
+                        <span class="f-bold">Action:</span>
+                        <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                        <i class="material-icons blue-text m-l-5 m-r-5">edit</i>
+                    </div>
+                </div>
+            </li>
+            <li class="user_list_item">
+                <div class="collapsible-header">
+                    <i class="material-icons yellow-text accent-4 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
+                    Mahya Ahmari
+                </div>
+
+                <div class="collapsible-body">
+
+                    <div class="p-all-5">
+                        <span class="f-bold">Username:</span>
+                        <span>mahyaA</span>
+                    </div>
+
+                    <div class="p-all-5">
+                        <span class="f-bold">Email:</span>
+                        <span>mahyahmari@gmail.com</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Address:</span>
+                        <span>mashhad-example Street ...</span>
+                    </div>
+                    <div class="p-all-5 flex-l-m">
+                        <span class="f-bold">Action:</span>
+                        <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                        <i class="material-icons blue-text m-l-5 m-r-5">edit</i>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- content section_________________________end__________________ -->
+          
+
+    <script src="assets/materialize/js/materialize.min.js"></script>
+    <script src="assets/js/user.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

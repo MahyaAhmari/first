@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/util.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <nav class="teal accent-4">
+    <!-- navbar section_________________________start________________ -->
+
+    <nav class="teal accent-4 top_navbar">
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Home</a>
+            <a href="#!" class="brand-logo hide-on-med-and-up">Home</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+        <ul class="hide-on-med-and-down">
+            <li><a href="/">Home</a></li>
+            <li><a href="users.html">User Manager</a></li>
+            <li><a href="https://github.com">GitHub</a></li>
+            <li><a href="https://github.com/MahyaAhmari/first">Site's Code</a></li>
         </ul>
         </div>
     </nav>
@@ -25,19 +28,29 @@
     <ul class="sidenav" id="mobile-demo">
         <li><div class="user-view">
         <div class="background">
-            <img src="assets/images/background.jpg" class="w-100">
+            <img src="assets/images/background.jpg" class="w-100" alt="image">
         </div>
-        <a href="#user"><img class="circle" src="assets/images/avatar.jpg"></a>
-        <a href="#name"><span class="black-text name">Mahya Ahmari</span></a>
-        <a href="#email"><span class="black-text email">mahyahmari@gmail.com</span></a>
+        <a><img class="circle" src="assets/images/avatar.jpg" alt="avatar"></a>
+        <a><span class="black-text name">Mahya Ahmari</span></a>
+        <a><span class="black-text email">mahyahmari@gmail.com</span></a>
     </div></li>
     <li><a href="https://mail.google.com"><i class="material-icons">insert_link</i>mail box</a></li>
-    <li><a href="https://codeyad.com"><i class="material-icons">insert_link</i>codeyad</a></li>
+    <li><a href="https://github.com/MahyaAhmari"><i class="material-icons">insert_link</i>GitHub</a></li>
     <li><div class="divider"></div></li>
     <li><a class="subheader">Pages</a></li>
-    <li><a class="waves-effect" href="#!">Home</a></li>
-    <li><a class="waves-effect" href="#!">User</a></li>
+    <li><a class="waves-effect" href="/">Home</a></li>
+    <li><a class="waves-effect" href="users.html">User</a></li>
     </ul>
+    <!-- navbar section_________________________end__________________ -->
+    
+
+    <!-- navbar section_________________________start________________ -->
+    <section class="flex-c-m flex-col size-full p-r-20 p-l-20 p-t-100">
+        <img src="assets/images/my_ligo_circle.png" alt="logo" class="w-100 max-w-200 filter_shadow">
+        <a href="https://github.com/MahyaAhmari/first" class="waves-effect waves-light btn blue darken-3 w-100 max-w-250 m-t-10 mb-10 rounded_pill">see this site's codes</a>
+        <a href="users.html" class="waves-effect waves-light btn blue darken-3 w-100 max-w-250 m-t-10 mb-10 rounded_pill">users manager</a>
+    </section>
+    <!-- navbar section_________________________end__________________ -->
           
 
     <script src="assets/materialize/js/materialize.min.js"></script>
